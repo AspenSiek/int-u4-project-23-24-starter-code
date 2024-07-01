@@ -6,7 +6,15 @@ body {
     line-height: 1.6;
     padding: 20px;
 }
-
+p{
+    font-size: 5px;
+}
+#LeisurePic{
+    flex-direction: row;
+    justify-content: space-between;
+    width: 40%;
+    margin: 5px;
+}
 /* Title section styling */
 .title h1 {
     text-align: center;
@@ -34,7 +42,7 @@ body {
 }
 
 /* Result section styling */
-.result {
+.resultDiv {
     background-color: #e2e2e2;
     text-align: center;
     padding: 20px;
